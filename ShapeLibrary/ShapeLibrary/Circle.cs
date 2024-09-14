@@ -1,6 +1,6 @@
 ﻿namespace ShapeLibrary;
 
-internal class Circle : IShape
+public class Circle : IShape
 {
     private double Radius { get; }
 
