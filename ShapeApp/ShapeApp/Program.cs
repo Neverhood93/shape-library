@@ -6,7 +6,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("ShapeApp");
-        Console.WriteLine(Class1.TestMethod());
+        IShape circle = ShapeFactory.CreateCircle(5);
+        Console.WriteLine($"Площадь круга: {circle.CalculateArea()}");
     }
 }
